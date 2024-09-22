@@ -1,4 +1,3 @@
-
 This project aims to predict customer churn using several machine learning classifiers and compare their performance. The dataset used contains customer-related features such as account balance, credit score, and demographic details. Seven machine learning classifiers are implemented to identify whether a customer will leave (churn) or stay.
 
 Data Processing
