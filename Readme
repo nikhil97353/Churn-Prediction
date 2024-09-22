@@ -1,0 +1,62 @@
+Description:
+This project aims to predict customer churn using several machine learning classifiers and compare their performance. The dataset used contains customer-related features such as account balance, credit score, and demographic details. Seven machine learning classifiers are implemented to identify whether a customer will leave (churn) or stay.
+
+Key Features:
+Data Preprocessing: Missing data handling, feature scaling using StandardScaler, and categorical data transformation with One-Hot Encoding.
+Machine Learning Models:
+Logistic Regression
+K-Nearest Neighbors
+Support Vector Machine
+Decision Tree
+Random Forest
+XGBoost
+Neural Network (MLPClassifier)
+Model Evaluation: Evaluated performance using:
+Accuracy
+Precision
+Recall
+F1-Score
+ROC AUC Score
+Confusion Matrix
+Visualization: Generated visualizations for each model, including ROC and Precision-Recall curves.
+Performance Metrics:
+Here are the performance results for the top models:
+
+Logistic Regression:
+
+Accuracy: 81%
+Precision: 55% (for positive class)
+Recall: 20% (for positive class)
+F1-Score: 29%
+ROC AUC: 58%
+K-Nearest Neighbors:
+
+Accuracy: 83%
+Precision: 61% (for positive class)
+Recall: 37% (for positive class)
+F1-Score: 46%
+ROC AUC: 65%
+Random Forest:
+
+Accuracy: 86%
+Precision: 74% (for positive class)
+Recall: 49% (for positive class)
+F1-Score: 59%
+ROC AUC: 72%
+XGBoost:
+
+Accuracy: 86%
+Precision: 70% (for positive class)
+Recall: 51% (for positive class)
+F1-Score: 59%
+ROC AUC: 73%
+Neural Network:
+
+Accuracy: 85%
+Precision: 65% (for positive class)
+Recall: 52% (for positive class)
+F1-Score: 58%
+ROC AUC: 73%
+Key Insights:
+Random Forest and XGBoost yielded the highest accuracy (86%), making them the top-performing models.
+Neural Network also performed well with an accuracy of 85% 
