@@ -16,27 +16,7 @@ F1-Score
 ROC AUC Score
 Confusion Matrix
 Visualization: Generated visualizations for each model, including ROC and Precision-Recall curves.
+
 Performance Metrics:
-
-Logistic Regression:
-Accuracy: 81%
-Precision: 55% (for positive class)
-Recall: 20% (for positive class)
-F1-Score: 29%
-ROC AUC: 58%
-
-K-Nearest Neighbors:
-Accuracy: 83%
-
-
-Random Forest:
-Accuracy: 86%
-
-
-XGBoost:
-Accuracy: 86%
-
-
-Neural Network:
-Accuracy: 85%
+Logistic Regression: Accuracy: 81%; K-Nearest Neighbors: Accuracy: 83%; Random Forest: Accuracy: 86%; XGBoost: Accuracy: 86%; Neural Network: Accuracy: 85%
 
